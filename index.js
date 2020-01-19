@@ -10,7 +10,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 const questions = [
     {type:"question",file:"/sounds/a.m4a",key:"a",image:"/images/question.png"},
-    {type:"letter",file:"/sounds/what.mp3",text:"A",image:"/images/question.png"},
+    {type:"letter",file:"/sounds/what.mp3",text:"A",image:"/images/LetterA.png"},
 ]
 
 app.get('/api/nextLetter',(req,res)=>{
